@@ -46,7 +46,8 @@ class PolygonParser
             int x_;
             int y_;
         };
-        PolygonParser(const PolygonParser& rhs) {}      
+              PolygonParser(const PolygonParser& rhs);      
+PolygonParser& operator=(const PolygonParser& rhs); 
         bool  open();
         bool  close();
 
