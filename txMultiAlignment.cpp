@@ -30,7 +30,7 @@
 
 namespace 
 {
-    struct Transistor; // forward declaration for typedefs
+    class Transistor; // forward declaration for typedefs
     typedef std::vector<size_t> TxIdVec;
     typedef std::vector<Transistor> TxVec;
 
@@ -104,9 +104,10 @@ namespace
             TxIdVec idVec_;
     };
 }
-
+#include<bits/stl_tree.h>
 int main(int argc, char* argv[])
 {
+    //std::_Rb_tree<int,int,std::_Identity<int>, std::less<int> > aa;
 //    |       |
 //   =1=======5=
 //    |       |
