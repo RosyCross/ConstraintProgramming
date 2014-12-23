@@ -24,7 +24,7 @@
    #endif
 #endif
 
-#include "geoObj.h"
+#include "geomObj.h"
 #include "graphLib.hpp"
 #include "graphUtil.hpp"
 
